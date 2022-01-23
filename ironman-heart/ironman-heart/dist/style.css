@@ -1,0 +1,626 @@
+body {
+  margin: 0;
+  background: #000000;
+}
+
+svg {
+  position: absolute;
+  z-index: 50;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.heartContainer {
+  position: relative;
+}
+
+.ring {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.core {
+  height: 87px;
+  width: 87px;
+  background: #dbfff7;
+  border: 2px solid #1bf1fe;
+  z-index: 20;
+}
+
+.inner-one {
+  width: 123px;
+  height: 123px;
+  background: #1fb4bb;
+  border: 2px solid #153e51;
+  animation: neon 0.1s ease-in-out infinite alternate;
+  z-index: 19;
+}
+
+.inner-two {
+  width: 158px;
+  height: 158px;
+  background: #1fb4bb;
+  border: 2px solid #153e51;
+  animation: neon 0.1s ease-in-out infinite alternate;
+  z-index: 18;
+}
+
+.inner-three {
+  width: 184px;
+  height: 184px;
+  background: #1fb4bb;
+  border: 2px solid #153e51;
+  animation: neon 0.1s ease-in-out infinite alternate;
+  z-index: 17;
+}
+
+.capsules {
+  width: 256px;
+  height: 256px;
+  background: #2f4045;
+  z-index: 16;
+}
+
+.inner-flat {
+  width: 282px;
+  height: 282px;
+  background: #11545f;
+  z-index: 15;
+}
+
+.neon {
+  width: 366px;
+  height: 366px;
+  background: #dffffc;
+  position: relative;
+  z-index: 13;
+}
+
+.neon-pipe {
+  position: absolute;
+  height: 346px;
+  width: 346px;
+  background: #e3fdff;
+  border-radus: 50%;
+  z-index: 14;
+  border: 1px solid black;
+  animation: neon 0.1s ease-in-out infinite alternate;
+}
+
+.spacer {
+  position: absolute;
+  border: 3px solid red;
+  height: 326px;
+  width: 326px;
+  background: #11545f;
+  border-radus: 50%;
+  z-index: 13;
+}
+
+.outer-flat {
+  width: 382px;
+  height: 382px;
+  background: #11545f;
+}
+
+.outside {
+  width: 434px;
+  height: 434px;
+  background: #393e42;
+}
+
+.wiresboxContainer {
+  position: absolute;
+  height: 346px;
+  width: 80px;
+}
+
+.wires-box {
+  height: 35px;
+  width: 45px;
+  background: #2f4045;
+  position: absolute;
+  display: flex;
+  left: 18px;
+}
+
+.wb1 {
+  top: 0;
+}
+
+.wb2 {
+  bottom: 0;
+}
+
+.wire {
+  height: 31px;
+  width: 5px;
+  border: 1px solid #57332d;
+  background: #663e3c;
+}
+
+.cap {
+  height: 256px;
+  width: 18px;
+  position: absolute;
+  display: flex;
+}
+
+.ball {
+  position: absolute;
+  height: 30px;
+  width: 18px;
+  bottom: 0;
+  border-radius: 10px;
+  background: linear-gradient(#14cbe2, #0a8eaf);
+}
+
+.ball2 {
+  position: absolute;
+  height: 30px;
+  width: 18px;
+  top: 0;
+  border-radius: 10px;
+  background: linear-gradient(#14cbe2, #0a8eaf);
+}
+
+.cap1 {
+  transform: rotate(18deg);
+}
+
+.cap2 {
+  transform: rotate(36deg);
+}
+
+.cap3 {
+  transform: rotate(54deg);
+}
+
+.cap4 {
+  transform: rotate(72deg);
+}
+
+.cap5 {
+  transform: rotate(90deg);
+}
+
+.cap6 {
+  transform: rotate(108deg);
+}
+
+.cap7 {
+  transform: rotate(126deg);
+}
+
+.cap8 {
+  transform: rotate(144deg);
+}
+
+.cap9 {
+  transform: rotate(162deg);
+}
+
+.cap10 {
+  transform: rotate(180deg);
+}
+
+.cap11 {
+  transform: rotate(198deg);
+}
+
+.cap12 {
+  transform: rotate(216deg);
+}
+
+.cap13 {
+  transform: rotate(234deg);
+}
+
+.cap14 {
+  transform: rotate(252deg);
+}
+
+.cap15 {
+  transform: rotate(270deg);
+}
+
+.cap16 {
+  transform: rotate(288deg);
+}
+
+.cap17 {
+  transform: rotate(306deg);
+}
+
+.cap18 {
+  transform: rotate(324deg);
+}
+
+.cap19 {
+  transform: rotate(342deg);
+}
+
+.cap20 {
+  transform: rotate(360deg);
+}
+
+.cap21 {
+  transform: rotate(378deg);
+}
+
+.cap22 {
+  transform: rotate(396deg);
+}
+
+.cap23 {
+  transform: rotate(414deg);
+}
+
+.cap24 {
+  transform: rotate(432deg);
+}
+
+.cap25 {
+  transform: rotate(450deg);
+}
+
+.cap26 {
+  transform: rotate(468deg);
+}
+
+.cap27 {
+  transform: rotate(486deg);
+}
+
+.cap28 {
+  transform: rotate(504deg);
+}
+
+.cap29 {
+  transform: rotate(522deg);
+}
+
+.cap30 {
+  transform: rotate(540deg);
+}
+
+.cap31 {
+  transform: rotate(558deg);
+}
+
+.cap32 {
+  transform: rotate(576deg);
+}
+
+.cap33 {
+  transform: rotate(594deg);
+}
+
+.cap34 {
+  transform: rotate(612deg);
+}
+
+.cap35 {
+  transform: rotate(630deg);
+}
+
+.cap36 {
+  transform: rotate(648deg);
+}
+
+.cap37 {
+  transform: rotate(666deg);
+}
+
+.cap38 {
+  transform: rotate(684deg);
+}
+
+.cap39 {
+  transform: rotate(702deg);
+}
+
+.cap40 {
+  transform: rotate(720deg);
+}
+
+.cap41 {
+  transform: rotate(738deg);
+}
+
+.cap42 {
+  transform: rotate(756deg);
+}
+
+.cap43 {
+  transform: rotate(774deg);
+}
+
+.cap44 {
+  transform: rotate(792deg);
+}
+
+.cap45 {
+  transform: rotate(810deg);
+}
+
+.cap46 {
+  transform: rotate(828deg);
+}
+
+.cap47 {
+  transform: rotate(846deg);
+}
+
+.cap48 {
+  transform: rotate(864deg);
+}
+
+.cap49 {
+  transform: rotate(882deg);
+}
+
+.cap50 {
+  transform: rotate(900deg);
+}
+
+.cap51 {
+  transform: rotate(918deg);
+}
+
+.cap52 {
+  transform: rotate(936deg);
+}
+
+.cap53 {
+  transform: rotate(954deg);
+}
+
+.cap54 {
+  transform: rotate(972deg);
+}
+
+.cap55 {
+  transform: rotate(990deg);
+}
+
+.cap56 {
+  transform: rotate(1008deg);
+}
+
+.cap57 {
+  transform: rotate(1026deg);
+}
+
+.cap58 {
+  transform: rotate(1044deg);
+}
+
+.cap59 {
+  transform: rotate(1062deg);
+}
+
+.cap60 {
+  transform: rotate(1080deg);
+}
+
+.cap61 {
+  transform: rotate(1098deg);
+}
+
+.cap62 {
+  transform: rotate(1116deg);
+}
+
+.cap63 {
+  transform: rotate(1134deg);
+}
+
+.cap64 {
+  transform: rotate(1152deg);
+}
+
+.cap65 {
+  transform: rotate(1170deg);
+}
+
+.cap66 {
+  transform: rotate(1188deg);
+}
+
+.cap67 {
+  transform: rotate(1206deg);
+}
+
+.cap68 {
+  transform: rotate(1224deg);
+}
+
+.cap69 {
+  transform: rotate(1242deg);
+}
+
+.cap70 {
+  transform: rotate(1260deg);
+}
+
+.cap71 {
+  transform: rotate(1278deg);
+}
+
+.cap72 {
+  transform: rotate(1296deg);
+}
+
+.cap73 {
+  transform: rotate(1314deg);
+}
+
+.cap74 {
+  transform: rotate(1332deg);
+}
+
+.cap75 {
+  transform: rotate(1350deg);
+}
+
+.cap76 {
+  transform: rotate(1368deg);
+}
+
+.cap77 {
+  transform: rotate(1386deg);
+}
+
+.cap78 {
+  transform: rotate(1404deg);
+}
+
+.cap79 {
+  transform: rotate(1422deg);
+}
+
+.cap80 {
+  transform: rotate(1440deg);
+}
+
+.cap81 {
+  transform: rotate(1458deg);
+}
+
+.cap82 {
+  transform: rotate(1476deg);
+}
+
+.cap83 {
+  transform: rotate(1494deg);
+}
+
+.cap84 {
+  transform: rotate(1512deg);
+}
+
+.cap85 {
+  transform: rotate(1530deg);
+}
+
+.cap86 {
+  transform: rotate(1548deg);
+}
+
+.cap87 {
+  transform: rotate(1566deg);
+}
+
+.cap88 {
+  transform: rotate(1584deg);
+}
+
+.cap89 {
+  transform: rotate(1602deg);
+}
+
+.cap90 {
+  transform: rotate(1620deg);
+}
+
+.cap91 {
+  transform: rotate(1638deg);
+}
+
+.cap92 {
+  transform: rotate(1656deg);
+}
+
+.cap93 {
+  transform: rotate(1674deg);
+}
+
+.cap94 {
+  transform: rotate(1692deg);
+}
+
+.cap95 {
+  transform: rotate(1710deg);
+}
+
+.cap96 {
+  transform: rotate(1728deg);
+}
+
+.cap97 {
+  transform: rotate(1746deg);
+}
+
+.cap98 {
+  transform: rotate(1764deg);
+}
+
+.cap99 {
+  transform: rotate(1782deg);
+}
+
+.cap100 {
+  transform: rotate(1800deg);
+}
+
+.wbc1 {
+  transform: rotate(36deg);
+}
+
+.wbc2 {
+  transform: rotate(72deg);
+}
+
+.wbc3 {
+  transform: rotate(108deg);
+}
+
+.wbc4 {
+  transform: rotate(144deg);
+}
+
+.wbc5 {
+  transform: rotate(180deg);
+}
+
+.wbc6 {
+  transform: rotate(216deg);
+}
+
+.wbc7 {
+  transform: rotate(252deg);
+}
+
+.wbc8 {
+  transform: rotate(288deg);
+}
+
+.wbc9 {
+  transform: rotate(324deg);
+}
+
+.wbc10 {
+  transform: rotate(360deg);
+}
+
+@keyframes neon {
+  from {
+    /*     rgb(27, 241, 254,) */
+    box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(27, 241, 254, 0.52), 0 0 21px rgba(27, 241, 254, 0.92), 0 0 34px rgba(27, 241, 254, 0.78), 0 0 54px rgba(27, 241, 254, 0.92), inset 0 0 6px rgba(202, 228, 225, 0.92), inset 0 0 30px rgba(202, 228, 225, 0.34), inset 0 0 12px rgba(27, 241, 254, 0.52), inset 0 0 21px rgba(27, 241, 254, 0.92), inset 0 0 34px rgba(27, 241, 254, 0.78), inset 0 0 54px rgba(27, 241, 254, 0.92);
+  }
+  to {
+    box-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(27, 241, 254, 0.58), 0 0 22px rgba(27, 241, 254, 0.84), 0 0 38px rgba(27, 241, 254, 0.88), 0 0 60px #1bf1fe, inset 0 0 6px rgba(202, 228, 225, 0.98), inset 0 0 30px rgba(202, 228, 225, 0.42), inset 0 0 12px rgba(27, 241, 254, 0.58), inset 0 0 22px rgba(27, 241, 254, 0.84), inset 0 0 38px rgba(27, 241, 254, 0.88), inset 0 0 60px #1bf1fe;
+  }
+}
