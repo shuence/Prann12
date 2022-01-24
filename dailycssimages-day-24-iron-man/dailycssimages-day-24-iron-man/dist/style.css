@@ -19,6 +19,10 @@ body {
   overflow: hidden;
 }
 
+.stop {
+  color: aqua;
+}
+
 .ironman {
   height: 80vmin;
   width: 60vmin;

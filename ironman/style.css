@@ -1030,6 +1030,8 @@
     right: 30px;
     font-weight: bold;    
     z-index: 10;
+    padding: 20px;
+    color: aqua;
   }
 
   .author a{

@@ -5,12 +5,11 @@ var input = document.querySelector('input');
 var messageController = (function(){
   
   var starkQuotes = [
-    "I TOLD YOU. I DON’T WANT TO JOIN YOUR SUPER-SECRET BOY BAND.",
-    "I LOVED YOU IN A ‘A CHRISTMAS STORY’.",
-    "WELL, PERFORMANCE ISSUES, IT’S NOT UNCOMMON. ONE OUT OF FIVE…",
-    "I’M A HUGE FAN OF THE WAY YOU LOSE CONTROL AND TURN INTO AN ENORMOUS GREEN RAGE MONSTER.",
+    "Wassup cutie 😌",
+    "LOVE YOU 6600 ✨ .",
+    "You Know I wish You to be in our team",
+    "Why Are you so cute ",
     "HOW DO YOU GO TO THE BATHROOM IN THE SUIT?” [LONG PAUSE.] “JUST LIKE THAT.",
-    "DOTH MOTHER KNOW YOU WEARETH HER DRAPES.",
     "SOMETIMES YOU GOTTA RUN BEFORE YOU CAN WALK.",
     "HAVE YOU EVER TRIED SHAWARMA… I DON’T KNOW WHAT IT IS, BUT I WANNA TRY IT.",
     "IF THERE’S ONE THING I’VE PROVEN IT’S THAT YOU CAN COUNT ON ME TO PLEASURE MYSELF.",
@@ -30,7 +29,7 @@ var messageController = (function(){
       input.value = "";
     },
     starkReply: function(){
-      var reply = starkQuotes[Math.floor(Math.random() * starkQuotes.length-1) + 1];
+      var reply = starkQuotes[Math.floor(Math.random() * starkQuotes.length-1) ];
       var message_container = document.createElement("div");
       var message = `<img src="https://d2gcv4sxt84gxu.cloudfront.net/uploads/avatars/995064/original.png?1450125781"/>
       <div class="message_text"> ${reply} </div>`;
